@@ -1,0 +1,25 @@
+body {
+    background-color: #cececc;
+}
+
+#title {
+    text-align: center;
+    color: #55120b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.credit {
+    text-align: center;
+    font-size: small;
+}
+
+a { 
+    color: #454e2b;
+}
