@@ -20,6 +20,16 @@ body {
     font-size: small;
 }
 
+a {
+    display: block;
+
+}
+
+.recipes {
+
+    font-size: large;
+}
+
 a { 
     color: #454e2b;
 }
