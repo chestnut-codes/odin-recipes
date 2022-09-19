@@ -21,7 +21,7 @@ a {
 
 #eggplant {
     text-align: center;
-    color: #501d09;
+    color:#501d09;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -29,7 +29,42 @@ a.egglink{
     color: #b75314;
 }
 
+.egghead {
+    color: #501d09;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+#spaghetti {
+    text-align: center;
+    color: #ad601c ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+a.spalink {
+    color: #464917;
+}
+
+.spahead {
+    color: #ad601c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tira {
+    text-align: center;
+    color: #874815 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tirahead {
+    color: #914f1b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+a.tiralink {
+    color: #874815 ;
+}
 
 
 
