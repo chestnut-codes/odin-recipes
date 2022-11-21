@@ -1,35 +1,62 @@
+
 body {
-    background-color: #cececc;
+    font-family: Roboto, sans-serif;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem,16rem));
+    grid-gap: 2rem;
+    justify-content: center;
+    background-color: #ECE3DA;
+}
+.card {
+    overflow: hidden;
+    box-shadow: 0px 2px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transform: transform 200ms ease-in;
+    
 }
 
-#title {
-    text-align: center;
-    color: #55120b;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.card__image {
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
 }
-
-.credit {
-    text-align: center;
-    font-size: small;
-}
-
-a {
-    display: block;
+.card__title {
+    padding: 1rem;
 
 }
 
-.recipes {
-
-    font-size: large;
+.card__description {
+    padding: 0 1rem;
 }
 
-a { 
-    color: #454e2b;
+.card__btn {
+   padding: 1rem;
+   font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+    border: 2px solid #43432A ;
+    background: transparent;
+    color: #43432A;
+    border-radius: 10px;
+    transition:background 200ms ease-in,
+    color 200ms ease-in;
+    cursor: pointer;
 }
+
+button:hover {
+    background-color: #43432A;
+    color: #F7F7F2;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+
